@@ -14,8 +14,3 @@ if edad is 21:
     print("Estas invitado a la fiesta")
 else:
     print("No puedes pasar")
-
-def pedir_pizza():      
-    print("Pedir pizza")
-
-pedir_pizza();
