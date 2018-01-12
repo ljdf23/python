@@ -17,3 +17,14 @@ vocales = "aeiou"
  
 for vocal in vocales:
     print(vocal.upper())
+
+
+try:
+    primer_numero = int(input("Dame un numero "))
+    segundo_numero = int(input("Dame otro numero "))   
+except ValueError as identifier:
+    print("Numero inválido.")
+else:
+    suma = primer_numero + segundo_numero
+    print("La suma es: " + str(suma))
+   
