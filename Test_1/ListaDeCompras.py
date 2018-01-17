@@ -4,12 +4,23 @@ lista_articulos = list()
 def agregar_articulo():
     print()
     articulo = input("Nombre del artículo a agregar: ")    
-    lista_articulos.append(articulo)
+    art = ""; 
+    lista_articulos.append(articulo.capitalize())
     print("Artículo agregado.")
     print()
 
 def remover_articulo():
-    print()
+    print()   
+    articulo = input("Nombre del artículo a remover: ")
+    
+    try:
+        lista_articulos.remove(articulo.capitalize())
+    except ValueError as ex:
+        print("No se encuentra el artículo definido.")
+    else: 
+        print("El artículo ha sido removido")
+    
+    print()  
 
 def ver_articulos():
     print()
