@@ -1,4 +1,4 @@
- def realizar_operacion (operacion, primer_numero, segundo_numero):
+def realizar_operacion (operacion, primer_numero, segundo_numero):
     if operacion == '1':
         resultado = primer_numero + segundo_numero
     elif operacion == '2':

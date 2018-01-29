@@ -91,7 +91,10 @@ def iniciar_agenda():
                 break
             else:
                 print("Operación desconocida.")
+  
+def dar_despedida():
+    print("Hasta luego! :)")
 
 
 iniciar_agenda()
-print("Hasta luego! :)")
+dar_despedida()
